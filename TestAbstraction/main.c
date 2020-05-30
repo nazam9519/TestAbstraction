@@ -48,14 +48,6 @@ int main(int argc, char* argv[])
     char* chars = "civic";
     if (!palindrome(chars))
         printf("not a palindrome");
-    char data2[5] = "hell\0";
-    char downdata[5] = "down\0";
-    char data3[6] = "hello\0";
-    char data4[7] = "hello2\0";
-    char data5[7] = "hello4\0";
-    const char* names[] = { "gilmore\0" };
-    //listptr newlist = NULL;
-    
     list* listptr = NULL;
     linkedlistapi.create(&listptr);
     //new_list(&listptr);
